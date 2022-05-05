@@ -1,0 +1,35 @@
+.header-main-container {      
+    height: 60px;
+    position: relative;
+    max-width: 650px;
+    margin: auto;
+    background-color: #33334d;    
+}
+
+.header-left-container {
+    margin-left: 100px;
+    height: 100%;
+    border-left: 2px solid white; 
+    padding-left: 10px;       
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.header h1 {        
+    font-size: medium;
+    color: white;    
+    padding: 5px;
+}
+
+@media only screen and (min-width: 650px) {    
+    .header {
+        position: fixed;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        padding-bottom: 5px;
+        border-bottom: 2px solid #33334d;        
+        background-color: #f0f0ff;
+        z-index: 1;
+    }    
+}

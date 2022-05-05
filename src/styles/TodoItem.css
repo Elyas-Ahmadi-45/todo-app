@@ -1,0 +1,62 @@
+.todo-item {
+    border-bottom: 2px solid gray;
+    width: 100%;    
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.5);              
+}
+
+.todo-item-container {
+    width: 100%;
+    overflow: hidden;
+    padding: 25px 20px 15px 20px;    
+}
+
+.todo-item h1 {
+    font-size: x-large;
+}
+
+.todo-item p {
+    font-size: large;
+    margin: 10px 0px;
+}
+
+.todo-item h6 {
+    font-size: medium;
+    color: gray;
+}
+
+.todo-item-left-container {    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.todo-item-left-container input {
+    margin-bottom: 15px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.todo-item-left-container button {
+    border: none;
+    background-color: transparent;
+    margin: 15px;
+}
+
+.todo-item-left-container button svg {
+    cursor: pointer;    
+    height: 30px;
+    width: 30px;
+}
+
+
+@media only screen and (min-width: 650px) {
+    .todo-item {
+        border: 2px solid gray;
+        width: 550px;
+        margin: 15px 0px;        
+    }
+}
